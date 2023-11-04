@@ -32,7 +32,7 @@ function postMail(req, res) {
   transporter.sendMail(
     {
       from: process.env.MAIL_USER,
-      to: 'aunghtetlinn.coys@gmail.com',
+      to: 'manbox@rapwise.org',
       // manbox@rapwise.org
       subject: subject,
       html: `<p>${message}</p>
